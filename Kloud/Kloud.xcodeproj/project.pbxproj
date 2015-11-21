@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		256589241C00E133005CBBBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 256589231C00E133005CBBBE /* main.m */; };
+		256589271C00E133005CBBBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256589261C00E133005CBBBE /* AppDelegate.m */; };
+		2565892A1C00E133005CBBBE /* Kloud.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 256589281C00E133005CBBBE /* Kloud.xcdatamodeld */; };
+		256589301C00E133005CBBBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2565892E1C00E133005CBBBE /* Main.storyboard */; };
+		256589321C00E133005CBBBE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 256589311C00E133005CBBBE /* Images.xcassets */; };
+		256589351C00E133005CBBBE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 256589331C00E133005CBBBE /* LaunchScreen.xib */; };
+		256589411C00E133005CBBBE /* KloudTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 256589401C00E133005CBBBE /* KloudTests.m */; };
+		256589591C00E3E6005CBBBE /* KloudDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 256589581C00E3E6005CBBBE /* KloudDataViewController.m */; };
+		2565895F1C00E511005CBBBE /* KoludDataListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2565895D1C00E511005CBBBE /* KoludDataListTableViewCell.m */; };
+		256589601C00E511005CBBBE /* KoludDataListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2565895E1C00E511005CBBBE /* KoludDataListTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2565893B1C00E133005CBBBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 256589161C00E132005CBBBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2565891D1C00E132005CBBBE;
+			remoteInfo = Kloud;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2565891E1C00E133005CBBBE /* Kloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		256589221C00E133005CBBBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		256589231C00E133005CBBBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		256589251C00E133005CBBBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		256589261C00E133005CBBBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		256589291C00E133005CBBBE /* Kloud.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Kloud.xcdatamodel; sourceTree = "<group>"; };
+		2565892F1C00E133005CBBBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		256589311C00E133005CBBBE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		256589341C00E133005CBBBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2565893A1C00E133005CBBBE /* KloudTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KloudTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2565893F1C00E133005CBBBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		256589401C00E133005CBBBE /* KloudTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KloudTests.m; sourceTree = "<group>"; };
+		256589571C00E3E6005CBBBE /* KloudDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KloudDataViewController.h; sourceTree = "<group>"; };
+		256589581C00E3E6005CBBBE /* KloudDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KloudDataViewController.m; sourceTree = "<group>"; };
+		2565895C1C00E511005CBBBE /* KoludDataListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KoludDataListTableViewCell.h; sourceTree = "<group>"; };
+		2565895D1C00E511005CBBBE /* KoludDataListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KoludDataListTableViewCell.m; sourceTree = "<group>"; };
+		2565895E1C00E511005CBBBE /* KoludDataListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KoludDataListTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2565891B1C00E132005CBBBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256589371C00E133005CBBBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		256589151C00E132005CBBBE = {
+			isa = PBXGroup;
+			children = (
+				256589201C00E133005CBBBE /* Kloud */,
+				2565893D1C00E133005CBBBE /* KloudTests */,
+				2565891F1C00E133005CBBBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2565891F1C00E133005CBBBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2565891E1C00E133005CBBBE /* Kloud.app */,
+				2565893A1C00E133005CBBBE /* KloudTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		256589201C00E133005CBBBE /* Kloud */ = {
+			isa = PBXGroup;
+			children = (
+				2565895B1C00E511005CBBBE /* View */,
+				256589561C00E3CD005CBBBE /* Controller */,
+				256589251C00E133005CBBBE /* AppDelegate.h */,
+				256589261C00E133005CBBBE /* AppDelegate.m */,
+				2565892E1C00E133005CBBBE /* Main.storyboard */,
+				256589311C00E133005CBBBE /* Images.xcassets */,
+				256589331C00E133005CBBBE /* LaunchScreen.xib */,
+				256589281C00E133005CBBBE /* Kloud.xcdatamodeld */,
+				256589211C00E133005CBBBE /* Supporting Files */,
+			);
+			path = Kloud;
+			sourceTree = "<group>";
+		};
+		256589211C00E133005CBBBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				256589221C00E133005CBBBE /* Info.plist */,
+				256589231C00E133005CBBBE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2565893D1C00E133005CBBBE /* KloudTests */ = {
+			isa = PBXGroup;
+			children = (
+				256589401C00E133005CBBBE /* KloudTests.m */,
+				2565893E1C00E133005CBBBE /* Supporting Files */,
+			);
+			path = KloudTests;
+			sourceTree = "<group>";
+		};
+		2565893E1C00E133005CBBBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2565893F1C00E133005CBBBE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		256589561C00E3CD005CBBBE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				256589571C00E3E6005CBBBE /* KloudDataViewController.h */,
+				256589581C00E3E6005CBBBE /* KloudDataViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2565895B1C00E511005CBBBE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2565895C1C00E511005CBBBE /* KoludDataListTableViewCell.h */,
+				2565895D1C00E511005CBBBE /* KoludDataListTableViewCell.m */,
+				2565895E1C00E511005CBBBE /* KoludDataListTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2565891D1C00E132005CBBBE /* Kloud */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 256589441C00E133005CBBBE /* Build configuration list for PBXNativeTarget "Kloud" */;
+			buildPhases = (
+				2565891A1C00E132005CBBBE /* Sources */,
+				2565891B1C00E132005CBBBE /* Frameworks */,
+				2565891C1C00E132005CBBBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kloud;
+			productName = Kloud;
+			productReference = 2565891E1C00E133005CBBBE /* Kloud.app */;
+			productType = "com.apple.product-type.application";
+		};
+		256589391C00E133005CBBBE /* KloudTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 256589471C00E133005CBBBE /* Build configuration list for PBXNativeTarget "KloudTests" */;
+			buildPhases = (
+				256589361C00E133005CBBBE /* Sources */,
+				256589371C00E133005CBBBE /* Frameworks */,
+				256589381C00E133005CBBBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2565893C1C00E133005CBBBE /* PBXTargetDependency */,
+			);
+			name = KloudTests;
+			productName = KloudTests;
+			productReference = 2565893A1C00E133005CBBBE /* KloudTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		256589161C00E132005CBBBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Sandeep Malhotra";
+				TargetAttributes = {
+					2565891D1C00E132005CBBBE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					256589391C00E133005CBBBE = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 2565891D1C00E132005CBBBE;
+					};
+				};
+			};
+			buildConfigurationList = 256589191C00E132005CBBBE /* Build configuration list for PBXProject "Kloud" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 256589151C00E132005CBBBE;
+			productRefGroup = 2565891F1C00E133005CBBBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2565891D1C00E132005CBBBE /* Kloud */,
+				256589391C00E133005CBBBE /* KloudTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2565891C1C00E132005CBBBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256589601C00E511005CBBBE /* KoludDataListTableViewCell.xib in Resources */,
+				256589301C00E133005CBBBE /* Main.storyboard in Resources */,
+				256589351C00E133005CBBBE /* LaunchScreen.xib in Resources */,
+				256589321C00E133005CBBBE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256589381C00E133005CBBBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2565891A1C00E132005CBBBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256589271C00E133005CBBBE /* AppDelegate.m in Sources */,
+				2565895F1C00E511005CBBBE /* KoludDataListTableViewCell.m in Sources */,
+				2565892A1C00E133005CBBBE /* Kloud.xcdatamodeld in Sources */,
+				256589241C00E133005CBBBE /* main.m in Sources */,
+				256589591C00E3E6005CBBBE /* KloudDataViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		256589361C00E133005CBBBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				256589411C00E133005CBBBE /* KloudTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2565893C1C00E133005CBBBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2565891D1C00E132005CBBBE /* Kloud */;
+			targetProxy = 2565893B1C00E133005CBBBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2565892E1C00E133005CBBBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2565892F1C00E133005CBBBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		256589331C00E133005CBBBE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				256589341C00E133005CBBBE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		256589421C00E133005CBBBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		256589431C00E133005CBBBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		256589451C00E133005CBBBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kloud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		256589461C00E133005CBBBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kloud/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		256589481C00E133005CBBBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kloud.app/Kloud";
+			};
+			name = Debug;
+		};
+		256589491C00E133005CBBBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KloudTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kloud.app/Kloud";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		256589191C00E132005CBBBE /* Build configuration list for PBXProject "Kloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256589421C00E133005CBBBE /* Debug */,
+				256589431C00E133005CBBBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		256589441C00E133005CBBBE /* Build configuration list for PBXNativeTarget "Kloud" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256589451C00E133005CBBBE /* Debug */,
+				256589461C00E133005CBBBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		256589471C00E133005CBBBE /* Build configuration list for PBXNativeTarget "KloudTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				256589481C00E133005CBBBE /* Debug */,
+				256589491C00E133005CBBBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		256589281C00E133005CBBBE /* Kloud.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				256589291C00E133005CBBBE /* Kloud.xcdatamodel */,
+			);
+			currentVersion = 256589291C00E133005CBBBE /* Kloud.xcdatamodel */;
+			path = Kloud.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 256589161C00E132005CBBBE /* Project object */;
+}
