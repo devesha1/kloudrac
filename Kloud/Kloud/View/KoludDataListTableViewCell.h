@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "LandDataListModel.h"
 @interface KoludDataListTableViewCell : UITableViewCell
-
+-(void)setCellDataWithTitle:(NSString*)title andDesc:(NSString*)desc andImageStr:(NSString*)imageStr;
 @end

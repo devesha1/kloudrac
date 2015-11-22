@@ -17,6 +17,10 @@
 		256589591C00E3E6005CBBBE /* KloudDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 256589581C00E3E6005CBBBE /* KloudDataViewController.m */; };
 		2565895F1C00E511005CBBBE /* KoludDataListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2565895D1C00E511005CBBBE /* KoludDataListTableViewCell.m */; };
 		256589601C00E511005CBBBE /* KoludDataListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2565895E1C00E511005CBBBE /* KoludDataListTableViewCell.xib */; };
+		256589661C00E8E5005CBBBE /* KloudWebserviceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 256589651C00E8E5005CBBBE /* KloudWebserviceHelper.m */; };
+		2565896C1C01DAED005CBBBE /* LandDataListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2565896B1C01DAED005CBBBE /* LandDataListModel.m */; };
+		256589741C01EA98005CBBBE /* CommonClasses.m in Sources */ = {isa = PBXBuildFile; fileRef = 256589731C01EA98005CBBBE /* CommonClasses.m */; };
+		256589781C01F2B2005CBBBE /* UIImageView+cellImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 256589771C01F2B2005CBBBE /* UIImageView+cellImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,14 @@
 		2565895C1C00E511005CBBBE /* KoludDataListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KoludDataListTableViewCell.h; sourceTree = "<group>"; };
 		2565895D1C00E511005CBBBE /* KoludDataListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KoludDataListTableViewCell.m; sourceTree = "<group>"; };
 		2565895E1C00E511005CBBBE /* KoludDataListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KoludDataListTableViewCell.xib; sourceTree = "<group>"; };
+		256589641C00E8E5005CBBBE /* KloudWebserviceHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KloudWebserviceHelper.h; sourceTree = "<group>"; };
+		256589651C00E8E5005CBBBE /* KloudWebserviceHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KloudWebserviceHelper.m; sourceTree = "<group>"; };
+		2565896A1C01DAED005CBBBE /* LandDataListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LandDataListModel.h; sourceTree = "<group>"; };
+		2565896B1C01DAED005CBBBE /* LandDataListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LandDataListModel.m; sourceTree = "<group>"; };
+		256589721C01EA98005CBBBE /* CommonClasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonClasses.h; sourceTree = "<group>"; };
+		256589731C01EA98005CBBBE /* CommonClasses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonClasses.m; sourceTree = "<group>"; };
+		256589761C01F2B2005CBBBE /* UIImageView+cellImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+cellImageView.h"; sourceTree = "<group>"; };
+		256589771C01F2B2005CBBBE /* UIImageView+cellImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+cellImageView.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +100,9 @@
 		256589201C00E133005CBBBE /* Kloud */ = {
 			isa = PBXGroup;
 			children = (
+				256589711C01EA79005CBBBE /* Utilities */,
+				256589691C01DAB3005CBBBE /* Model */,
+				256589631C00E8BC005CBBBE /* WebserviceHelper */,
 				2565895B1C00E511005CBBBE /* View */,
 				256589561C00E3CD005CBBBE /* Controller */,
 				256589251C00E133005CBBBE /* AppDelegate.h */,
@@ -144,6 +159,35 @@
 				2565895E1C00E511005CBBBE /* KoludDataListTableViewCell.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		256589631C00E8BC005CBBBE /* WebserviceHelper */ = {
+			isa = PBXGroup;
+			children = (
+				256589641C00E8E5005CBBBE /* KloudWebserviceHelper.h */,
+				256589651C00E8E5005CBBBE /* KloudWebserviceHelper.m */,
+			);
+			path = WebserviceHelper;
+			sourceTree = "<group>";
+		};
+		256589691C01DAB3005CBBBE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2565896A1C01DAED005CBBBE /* LandDataListModel.h */,
+				2565896B1C01DAED005CBBBE /* LandDataListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		256589711C01EA79005CBBBE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				256589721C01EA98005CBBBE /* CommonClasses.h */,
+				256589731C01EA98005CBBBE /* CommonClasses.m */,
+				256589761C01F2B2005CBBBE /* UIImageView+cellImageView.h */,
+				256589771C01F2B2005CBBBE /* UIImageView+cellImageView.m */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,9 +292,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				256589271C00E133005CBBBE /* AppDelegate.m in Sources */,
+				256589741C01EA98005CBBBE /* CommonClasses.m in Sources */,
+				256589781C01F2B2005CBBBE /* UIImageView+cellImageView.m in Sources */,
 				2565895F1C00E511005CBBBE /* KoludDataListTableViewCell.m in Sources */,
 				2565892A1C00E133005CBBBE /* Kloud.xcdatamodeld in Sources */,
+				2565896C1C01DAED005CBBBE /* LandDataListModel.m in Sources */,
 				256589241C00E133005CBBBE /* main.m in Sources */,
+				256589661C00E8E5005CBBBE /* KloudWebserviceHelper.m in Sources */,
 				256589591C00E3E6005CBBBE /* KloudDataViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Kloud/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -388,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Kloud/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

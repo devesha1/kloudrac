@@ -1,18 +1,57 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="KoludDataListTableViewCell">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="kKoludDataListTableViewCell" rowHeight="122" id="KGk-i7-Jjw" customClass="KoludDataListTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="122"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
                 <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Murdochs needed counselling after hacking scandal,says magazine" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="304" translatesAutoresizingMaskIntoConstraints="NO" id="kL4-1W-oLv">
+                        <rect key="frame" x="8" y="8" width="304" height="41"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="17"/>
+                        <color key="textColor" red="0.21176470588235294" green="0.30196078431372547" blue="0.47843137254901957" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New YORK: The British phone-hacking scandal brought simmering tensions." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="200" translatesAutoresizingMaskIntoConstraints="NO" id="rFf-43-Are">
+                        <rect key="frame" x="8" y="59" width="200" height="47"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="p78-gY-6uP">
+                        <rect key="frame" x="216" y="56" width="96" height="54"/>
+                        <color key="backgroundColor" red="0.81176470590000005" green="0.81176470590000005" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="54" id="1xW-l5-Zf8"/>
+                            <constraint firstAttribute="width" constant="96" id="yBe-1n-5Cg"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="p78-gY-6uP" firstAttribute="leading" secondItem="rFf-43-Are" secondAttribute="trailing" constant="8" id="0Et-xW-2kW"/>
+                    <constraint firstItem="rFf-43-Are" firstAttribute="top" secondItem="kL4-1W-oLv" secondAttribute="bottom" constant="10" id="0QN-eO-7aq"/>
+                    <constraint firstItem="rFf-43-Are" firstAttribute="centerY" secondItem="p78-gY-6uP" secondAttribute="centerY" id="7h7-qJ-Pet"/>
+                    <constraint firstItem="rFf-43-Are" firstAttribute="top" secondItem="kL4-1W-oLv" secondAttribute="bottom" constant="10" id="L0D-kF-73D"/>
+                    <constraint firstItem="rFf-43-Are" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="ThL-k8-a72"/>
+                    <constraint firstItem="kL4-1W-oLv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="XC7-Fg-du8"/>
+                    <constraint firstItem="kL4-1W-oLv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="gtG-5G-zln"/>
+                    <constraint firstAttribute="trailing" secondItem="p78-gY-6uP" secondAttribute="trailing" constant="8" id="hHj-5V-hj2"/>
+                    <constraint firstAttribute="trailing" secondItem="kL4-1W-oLv" secondAttribute="trailing" constant="8" id="vnL-eP-NdG"/>
+                </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="cellDescLabel" destination="rFf-43-Are" id="5WX-29-dI3"/>
+                <outlet property="cellImageView" destination="p78-gY-6uP" id="WUE-DL-AlA"/>
+                <outlet property="cellTitleLabel" destination="kL4-1W-oLv" id="ux2-kE-Xyp"/>
+            </connections>
+            <point key="canvasLocation" x="130" y="242"/>
         </tableViewCell>
     </objects>
 </document>

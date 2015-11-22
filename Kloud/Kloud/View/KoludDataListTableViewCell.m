@@ -7,6 +7,15 @@
 //
 
 #import "KoludDataListTableViewCell.h"
+#import "UIImageView+cellImageView.h"
+
+@interface	KoludDataListTableViewCell()
+{
+	__weak IBOutlet UIImageView *cellImageView;
+	__weak IBOutlet UILabel *cellTitleLabel;
+	__weak IBOutlet UILabel *cellDescLabel;
+}
+@end
 
 @implementation KoludDataListTableViewCell
 
@@ -18,6 +27,13 @@
     [super setSelected:selected animated:animated];
 
     // Configure the view for the selected state
+}
+
+-(void)setCellDataWithTitle:(NSString*)title andDesc:(NSString*)desc andImageStr:(NSString*)imageStr;
+{
+	cellTitleLabel.text = title;
+	cellDescLabel.text = desc;
+	[cellImageView setImageWithUrlStr:imageStr];
 }
 
 @end
