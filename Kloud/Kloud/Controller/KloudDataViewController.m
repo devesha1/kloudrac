@@ -20,6 +20,7 @@
 	__weak IBOutlet UITableView *dataListTable;
 	NSMutableArray *_dataListArray;
 	NSString *_dataTitle ;
+	UIRefreshControl *refreshControl;
 }
 
 @end
@@ -30,6 +31,16 @@
 	[super viewDidLoad];
 	_dataListArray = [[NSMutableArray alloc] init];
 	dataListTable.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
+	refreshControl = [[UIRefreshControl alloc] init];
+	[refreshControl addTarget:self action:@selector(getRefreshedData) forControlEvents:UIControlEventValueChanged];
+	[dataListTable addSubview:refreshControl];
+
+	[self getKloudData];
+}
+
+-(void)getRefreshedData
+{
+	[refreshControl endRefreshing];
 	[self getKloudData];
 }
 
